@@ -1,0 +1,35 @@
+# Files
+*.pdf
+*.xls
+*.xlsx
+*.csv
+*.pdf
+*.env
+*.zip
+*.joblib
+*.drawio
+
+# Virtual env
+venv/
+.venv/
+
+# Pycache
+*__pycache__*
+__pycache__/
+
+# OS system
+.DS_Store
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/*
+
+# CDK
+cdk.context.json
+.cdk.staging/
+cdk.out/
+
+# Python
+*.egg-info
+*.egg
