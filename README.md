@@ -123,7 +123,7 @@ and
 * In the AWS console please go to the AWS Lambda and open the function that starts with "L4VBatchJobPredictionCdkStac". Upload the input images in the below s3 bucket path
 input-image-<<YOUR_AWS_ACCOUNT_ID>>-<<YOUR_AWS_ACCOUNT_REGION>>/lambdapredictinputimages/
 * [Run this function.](https://docs.aws.amazon.com/lambda/latest/dg/testing-functions.html).
-* Check the prediction results stored in the Amazon S3 bucket belowL predicted-result-<<YOUR_AWS_ACCOUNT_ID>>-<<YOUR_AWS_ACCOUNT_REGION>>/predictedresults/
+* Check the prediction results stored in the Amazon S3 bucket belowL predicted-result-<<YOUR_AWS_ACCOUNT_ID>>-<<YOUR_AWS_ACCOUNT_REGION>>/lambdapredictedresults/
 
 ## Security
 
