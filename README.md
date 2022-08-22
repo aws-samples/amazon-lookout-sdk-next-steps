@@ -100,6 +100,7 @@ In order to check successful deployment please:
 Post deployment step:
 * Please download the python .whl file (lookoutvision-0.1.10-py3-none-any.whl) of Amazon lookout for vision from the link https://pypi.org/project/lookoutvision/#files and upload that to the s3 bucket location below --> 
 lookoutforvision-whlfile-<<YOUR_AWS_ACCOUNT_ID>>-<<YOUR_AWS_ACCOUNT_REGION>>
+This is extra python files that will be required to run prediction with lookout for vision in Glue. The same s3 path has already been referred in the Glue job as Python library path. 
 
 
 ### Testing the stack

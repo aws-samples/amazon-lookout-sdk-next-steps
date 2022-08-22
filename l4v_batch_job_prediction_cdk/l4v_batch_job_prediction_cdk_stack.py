@@ -327,7 +327,7 @@ class L4VBatchJobPredictionCdkStack(cdk.Stack):
 
         glue_job_scripts = cdk.Fn.sub('s3://lookoutforvision-glue-helpers-${AWS::AccountId}-${AWS::Region}/glue-scripts/batch_prediction.py')
         TempDir = cdk.Fn.sub('s3://lookoutforvision-glue-helpers-${AWS::AccountId}-${AWS::Region}/')
-        extra_python_library_location = cdk.Fn.sub('s3://lookoutforvision-whlfile-${AWS::AccountId}-${AWS::Region}/lookoutvision-0.1.5-py3-none-any.whl')
+        extra_python_library_location = cdk.Fn.sub('s3://lookoutforvision-whlfile-${AWS::AccountId}-${AWS::Region}/lookoutvision-0.1.10-py3-none-any.whl')
         input_image_bucket = buckets['input_image_bucket'].bucket_name
         pred_result_bucket = buckets['pred_result_bucket'].bucket_name
 
